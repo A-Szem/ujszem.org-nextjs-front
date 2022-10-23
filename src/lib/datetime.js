@@ -4,7 +4,7 @@ import { format } from 'date-fns';
  * formatDate
  */
 
-export function formatDate(date, pattern = 'PPP') {
+export function formatDate(date, pattern = 'Y.M.d. HH:mm') {
   return format(new Date(date), pattern);
 }
 
